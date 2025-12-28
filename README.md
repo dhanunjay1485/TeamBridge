@@ -1,68 +1,51 @@
-Team Bridge is a scalable MERN stack web application designed to improve collaboration within corporate teams. It enables teams to work efficiently through shared rooms, task management, notes, and secure file sharing, with clearly defined Admin and User roles.
+🌐 Team Bridgee – Corporate Team Collaboration Platform
 
-🚀 Features
-👤 User Role
+Team Bridge is a MERN-stack web application that allows corporate teams to collaborate via shared rooms, task management, notes, and file uploads. It supports both admin and user roles with clear access control.
 
-View collaboration rooms assigned by the admin
+---
 
-View, update, and mark assigned tasks as completed
+Features
+ 
+ User Role
+- View rooms assigned by admin
+- View and complete assigned tasks
+- View shared notes
+- Upload and view files
+- Access personal profile sidebar
 
-Access shared notes within rooms
+ Admin Role
+- Create and manage rooms
+- Assign tasks to members
+- Add notes to rooms
+- Upload and view files
+- Add users to rooms
+- Promote users to admins
+- Access personal profile sidebar
 
-Upload and view files securely
+---
 
-Access personal profile via sidebar
+Tech stack :
+- Frontend: React, Axios, React Router
+- Backend: Node.js, Express, MongoDB
+- Auth: JWT-based authentication
+- File Uploads: Multer
+- Database: MongoDB with Mongoose
 
-Collaborate seamlessly within assigned teams
+---
 
-🛠️ Admin Role
+Getting Started
 
-Create, update, and manage collaboration rooms
+Prerequisites
+- Node.js & npm
+- MongoDB running locally or Atlas DB
+- Git (for cloning)
 
-Assign tasks to team members
+---
 
-Add and manage notes within rooms
+Local Development
 
-Upload and manage shared files
+1. Clone the repository
 
-Add users to rooms
+git clone https://github.com/your-username/collabsphere.git
+cd collabsphere
 
-Promote users to admin roles
-
-Access personal profile via sidebar
-
-🧰 Tech Stack
-Frontend
-
-React
-
-Axios
-
-React Router
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-Authentication
-
-JWT (JSON Web Token) based authentication
-
-File Handling
-
-Multer
-
-⚙️ Getting Started
-✅ Prerequisites
-
-Node.js & npm
-
-MongoDB (Local or MongoDB Atlas)
-
-Git
